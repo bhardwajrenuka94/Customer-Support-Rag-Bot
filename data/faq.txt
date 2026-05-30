@@ -1,0 +1,23 @@
+Q: How do I reset my password?
+A: Click on Forgot Password on the login page. Enter your email. You will receive a reset link within 5 minutes. The link expires in 24 hours.
+
+Q: What is your refund policy?
+A: We offer full refunds within 30 days of purchase. Email us at support@company.com with your order ID.
+
+Q: How do I track my order?
+A: Login to your account. Go to Orders section. Click on your order to see live tracking details.
+
+Q: What payment methods do you accept?
+A: We accept Visa, Mastercard, UPI, NetBanking, and PayPal.
+
+Q: How do I cancel my subscription?
+A: Go to Account Settings. Click Subscription. Click Cancel Plan. You will keep access till end of billing period.
+
+Q: My order has not arrived yet. What do I do?
+A: Standard delivery takes 5 to 7 business days. If it has been more than 10 days, email support@company.com with your order number.
+
+Q: Can I change my shipping address after placing an order?
+A: Yes, but only before the order is shipped. Go to Account then Addresses, or contact support immediately.
+
+Q: Is customer support available in Hindi?
+A: Yes. Our team supports Hindi, English, and other regional languages.
