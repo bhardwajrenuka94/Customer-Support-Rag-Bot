@@ -1,0 +1,69 @@
+# 💬 Customer Support RAG Bot
+
+An intelligent customer support chatbot powered by Retrieval-Augmented Generation (RAG) that provides accurate, context-grounded responses from a knowledge base.
+
+## 🚀 Live Demo
+[Click here to try the bot](https://customer-support-rag-bot-ke4s8u9wbpnufyderssn7r.streamlit.app/)
+
+## 🎯 Problem Statement
+Traditional chatbots hallucinate — they give confident but wrong answers. This bot answers ONLY from a verified FAQ knowledge base, reducing hallucination to near zero.
+
+## 🏗️ Architecture
+User Query → HuggingFace Embeddings → ChromaDB Semantic Search → Top 3 Chunks Retrieved → Groq LLaMA 3.3 70B → Grounded Answer
+
+## ⚙️ Tech Stack
+- **LangChain** — RAG pipeline orchestration
+- **ChromaDB** — Vector database for semantic search
+- **HuggingFace** — sentence-transformers/all-MiniLM-L6-v2 embeddings
+- **Groq + LLaMA 3.3 70B** — Fast LLM inference
+- **Streamlit** — Interactive web app deployment
+- **Python** — Core language
+
+## ✨ Features
+- Semantic search over FAQ knowledge base
+- Zero hallucination via context-grounded responses
+- Source document attribution
+- Real-time query answering
+- Interactive chat interface
+
+## 📁 Project Structure
+```
+customer-support-rag-bot/
+├── app.py           ← Streamlit frontend
+├── rag_chain.py     ← RAG pipeline logic
+├── ingest.py        ← Data ingestion script
+├── requirements.txt ← Dependencies
+└── data/
+    └── faq.txt      ← Knowledge base
+```
+
+## 🔧 Run Locally
+
+1. Clone the repository
+```bash
+git clone https://github.com/bhardwajrenuka94/Customer-Support-Rag-Bot.git
+```
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Add your API key in `.env` file
+```
+GROQ_API_KEY=your_key_here
+```
+
+4. Ingest data
+```bash
+python ingest.py
+```
+
+5. Run the app
+```bash
+streamlit run app.py
+```
+
+## 👩‍💻 Author
+**Renuka Bhardwaj**
+[LinkedIn](https://linkedin.com/in/renuka-bhardwaj-9b93b62a7) | [GitHub](https://github.com/bhardwajrenuka94)
