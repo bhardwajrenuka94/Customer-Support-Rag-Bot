@@ -1,5 +1,4 @@
 langchain
-langchain-google-genai
 langchain-community
 langchain-chroma
 langchain-huggingface
