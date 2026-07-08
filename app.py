@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 st.title("💬 Customer Support Bot")
-st.caption("RAG · LangChain · ChromaDB · Gemini 1.5 Flash · HuggingFace")
+st.caption("RAG · LangChain · ChromaDB · Groq LLaMA 3.3 70B · HuggingFace")
 
 st.divider()
 
