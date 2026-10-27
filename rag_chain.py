@@ -23,8 +23,9 @@ retriever = vectorstore.as_retriever(
     search_kwargs={"k": 3}
 )
 
+# Updated to Groq's active model ID
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-20b",
     api_key=os.getenv("GROQ_API_KEY"),
     temperature=0.2
 )
